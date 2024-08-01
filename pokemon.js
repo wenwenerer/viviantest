@@ -31,10 +31,8 @@ for (let i = 1; i <= 99; i++) {
 }
 
 setTimeout(() => {
-    // 在 pokemonList 中找到 ID 為 6 的寶可夢
+    // 1. 在 pokemonList 中找到 ID 為 6 的寶可夢
 let pokemon6 = pokemonList.find(p => p.id === 6);
-
-// 輸出結果
 if (pokemon6) {
     console.log(`1. ID6 的寶可夢名稱為: ${pokemon6.name}`);
 } else {
