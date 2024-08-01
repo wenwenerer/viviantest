@@ -47,6 +47,11 @@ ID: 10, 名稱: caterpie
 
 3. 列出 id < 100, id > 0 的寶可夢中，體重（weight） < 50 的寶可夢名稱（name）及寶可夢體重（weight），並且依照體重由大至小排序
 Ans:
+- 抽驗官網前名稱是否與體重一致，但官網的單位為lbs
+- ex:名稱=Caterpie 官網顯示 6.4 lbs 使用API=https://pokeapi.co/api/v2/pokemon/10 確認 "weight": 29
+- 官網文件中有提到The weight of this Pokémon in hectograms.
+- 6.4 pounds = 29.0299117 hectograms
+
 名稱: meowth, 體重: 42
 名稱: bellsprout, 體重: 40
 名稱: shellder, 體重: 40 
